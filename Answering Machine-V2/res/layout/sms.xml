@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<ImageView
+android:id="@+id/widget29"
+android:layout_width="65px"
+android:layout_height="70px"
+android:src="@drawable/telephone"
+android:layout_x="25px"
+android:layout_y="25px"
+>
+</ImageView>
+<TextView
+android:id="@+id/widget30"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="SMS Settings"
+android:textSize="28sp"
+android:layout_x="85px"
+android:layout_y="25px"
+>
+</TextView>
+<Button
+android:id="@+id/bt_apply"
+android:layout_width="100px"
+android:layout_height="wrap_content"
+android:text="Apply"
+android:layout_x="29px"
+android:onClick="applyAction" android:layout_y="310px">
+</Button>
+<Button
+android:id="@+id/bt_clear"
+android:layout_width="100px"
+android:layout_height="wrap_content"
+android:text="Clear"
+android:layout_x="196px" 
+android:layout_y="310px" android:onClick="clearTextAction">
+</Button>
+<ImageButton
+android:id="@+id/bt_home"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/home"
+android:layout_y="21px"
+android:layout_x="275px" android:onClick="gotoHomeAction">
+</ImageButton>
+<EditText
+android:id="@+id/EditText"
+android:layout_width="269px"
+android:layout_height="wrap_content"
+android:text="I'll reply you soon"
+android:textSize="18sp"
+android:layout_x="28px" android:layout_y="260px">
+</EditText>
+
+
+<TextView
+android:id="@+id/text_reply"
+android:layout_height="wrap_content"
+android:text="I'll reply soon"
+android:layout_y="220px" android:layout_width="wrap_content" android:layout_x="28px">
+</TextView>
+
+<TextView android:layout_y="120dip" android:layout_x="31dip" android:singleLine="false" android:layout_height="90px" android:layout_width="240px" android:id="@+id/text_inbox" android:text="hello \n erand"></TextView>
+<TextView android:layout_x="30dip" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_y="97dip" android:id="@+id/TextView01" android:text="Selected Group"></TextView>
+<Button android:layout_y="93dip" 
+android:layout_x="205dip" 
+android:layout_height="wrap_content" 
+android:layout_width="90px" 
+android:text="Edit" 
+android:id="@+id/bt_Edit" android:onClick="contactListAction">
+</Button>
+</AbsoluteLayout>
