@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menuAbout" 
+	android:title="About" 
+	android:visible="true" 
+	android:enabled="true"
+	android:icon="@android:drawable/ic_dialog_info"></item>
+	<item android:id="@+id/menuVoiceSet" 
+	android:title="Voice Settings" 
+	android:visible="true" 
+	android:enabled="true"
+	android:icon="@android:drawable/ic_btn_speak_now"></item>
+	<item android:id="@+id/menuSmsSet" 
+	android:title="SMS Settings" 
+	android:visible="true" 
+	android:enabled="true"
+	android:icon="@android:drawable/ic_dialog_email"></item>
+	<item android:id="@+id/menuquit" 
+	android:title="Quit" 
+	android:visible="true" 
+	android:enabled="true"
+	android:icon="@android:drawable/ic_lock_power_off"></item>
+</menu>
